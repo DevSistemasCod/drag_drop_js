@@ -1,0 +1,23 @@
+.sortable-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sortable-grid li {
+  
+  background-color: #f0fb8d;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: grab;
+  transition: background-color 0.3s ease;
+}
+
+.sortable-grid li.sortable-chosen {
+  background-color: #ffd699;
+}
