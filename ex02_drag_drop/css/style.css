@@ -1,0 +1,47 @@
+.drag-list {
+  list-style: none;
+  padding: 0;
+}
+
+.drag-item {
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: move;
+}
+
+.conteudo {
+  width: 100%;
+  border-color: green;
+  border-style: solid;
+  display: inline-flex;
+}
+
+.part1 {
+  width: 33%;
+  border-color: red;
+  border-style: solid;
+}
+
+.part2 {
+  width: 33%;
+  border-color: rgb(26, 114, 221);
+  border-style: solid;
+}
+
+.part3 {
+  width: 33%;
+  border-color: rgb(79, 216, 25);
+  border-style: solid;
+}
+
+.part1-item {
+  background-color: lightcoral;
+}
+
+.part2-item {
+  background-color: lightblue;
+}
+
+.part3-item {
+  background-color: lightgreen;
+}
