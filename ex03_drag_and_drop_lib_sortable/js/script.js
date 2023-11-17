@@ -46,8 +46,8 @@ function inicializarSortable() {
 }
 
 // Função para aguardar que o DOM esteja pronto antes de inicializar
-
-document.addEventListener("DOMContentLoaded", function() {
+function inicializarQuandoPronto() {
+  document.addEventListener("DOMContentLoaded", function() {
     // Criar uma lista de números de 1 a 10
     let numeros = Array.from({ length: 10 }, function(indice) {
       return indice + 1;
@@ -60,3 +60,7 @@ document.addEventListener("DOMContentLoaded", function() {
     let ordenavel = inicializarSortable();
     adicionarNumerosOrdenaveis(ordenavel.el, numeros);
   });
+}
+
+// Inicializar quando o DOM estiver pronto
+inicializarQuandoPronto();
